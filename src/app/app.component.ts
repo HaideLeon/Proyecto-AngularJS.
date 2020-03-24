@@ -10,7 +10,7 @@ import { Component } from '@angular/core';
 })
 
 export class AppComponent {
-  title = 'app';
+ /* title = 'app';
   //Declara una propiedad como un arreglo de acciones 
   stocks: Array<StockInterface>;
 
@@ -19,5 +19,5 @@ export class AppComponent {
       //Una vez que se carga los datos los almacena en la propiedad stocks.
       this.stocks = stocks;
     });
-  }
+  }*/
 }

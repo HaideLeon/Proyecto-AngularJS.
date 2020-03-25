@@ -52,7 +52,7 @@ export class StocksService {
 
   //Elimina una accion de la lista
   remove(stock){
-    stocks.splice(stocks.indexOf(stock),1)
+    stocks.splice(stocks.indexOf(stock),1);
     return this.get();
   }
 
